@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassBoxData", "ClassBoxDat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalFarm", "AnimalFarm\AnimalFarm.csproj", "{EB2236A8-1910-4389-801D-788392E224CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingSpree", "ShoppingSpree\ShoppingSpree.csproj", "{8A384F89-E6A4-4026-B213-D01D47FC2C2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingSpree", "ShoppingSpree\ShoppingSpree.csproj", "{8A384F89-E6A4-4026-B213-D01D47FC2C2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaCalories", "PizzaCalories\PizzaCalories.csproj", "{B73F7DF4-17AA-4D67-AA7B-7EFA3DF9106C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaCalories", "PizzaCalories\PizzaCalories.csproj", "{B73F7DF4-17AA-4D67-AA7B-7EFA3DF9106C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballTeamGenerator", "FootballTeamGenerator\FootballTeamGenerator.csproj", "{13729FCB-15A3-44D8-BA3E-9714CA1DB3A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B73F7DF4-17AA-4D67-AA7B-7EFA3DF9106C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B73F7DF4-17AA-4D67-AA7B-7EFA3DF9106C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B73F7DF4-17AA-4D67-AA7B-7EFA3DF9106C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13729FCB-15A3-44D8-BA3E-9714CA1DB3A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13729FCB-15A3-44D8-BA3E-9714CA1DB3A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13729FCB-15A3-44D8-BA3E-9714CA1DB3A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13729FCB-15A3-44D8-BA3E-9714CA1DB3A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
