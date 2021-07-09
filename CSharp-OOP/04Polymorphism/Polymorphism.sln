@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathOperation", "MathOperation\MathOperation.csproj", "{ACDA5D51-AA58-43FE-8620-086A55F6A9EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animals", "Animals\Animals.csproj", "{9A85728F-8658-43AF-B666-EDC4C41ADB94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "Shapes\Shapes.csproj", "{9262E966-BCD8-423F-8137-09925E333ACD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACDA5D51-AA58-43FE-8620-086A55F6A9EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACDA5D51-AA58-43FE-8620-086A55F6A9EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACDA5D51-AA58-43FE-8620-086A55F6A9EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACDA5D51-AA58-43FE-8620-086A55F6A9EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A85728F-8658-43AF-B666-EDC4C41ADB94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A85728F-8658-43AF-B666-EDC4C41ADB94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A85728F-8658-43AF-B666-EDC4C41ADB94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A85728F-8658-43AF-B666-EDC4C41ADB94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9262E966-BCD8-423F-8137-09925E333ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9262E966-BCD8-423F-8137-09925E333ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9262E966-BCD8-423F-8137-09925E333ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9262E966-BCD8-423F-8137-09925E333ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FA02CE5-9A07-4CC9-8C8F-230ADE57F765}
+	EndGlobalSection
+EndGlobal
