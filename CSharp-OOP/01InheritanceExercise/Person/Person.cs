@@ -18,7 +18,7 @@ namespace Person
 
             set
             {
-                if (this.age < 0)
+                if (value < 0)
                 {
                     throw new ArgumentException("Age cannot be negative.");
                 }
