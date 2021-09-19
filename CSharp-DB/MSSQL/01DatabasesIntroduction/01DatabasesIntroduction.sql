@@ -83,9 +83,9 @@ CREATE TABLE People (
 INSERT INTO People ([Name], Height, [Weight], Gender, Birthdate)
 VALUES ('Petar Petrov', 1.84, 85.3, 'm', '2001-03-20'),
        ('Diana Ivanova', 1.67, 54.0, 'f', '1991-05-01'),
-	   ('Sotir Dimitrov', 1.75, 77.0, 'm', '1988-12-12'),
-	   ('Svetlana Todorova', 1.60, 52.0, 'f', '1967-02-15'),
-	   ('Todor Atanasov', 1.78, 103.3, 'f', '1997-07-08')
+       ('Sotir Dimitrov', 1.75, 77.0, 'm', '1988-12-12'),
+       ('Svetlana Todorova', 1.60, 52.0, 'f', '1967-02-15'),
+       ('Todor Atanasov', 1.78, 103.3, 'f', '1997-07-08')
 
 
 /* ******************************************
@@ -105,9 +105,9 @@ CREATE TABLE Users (
 INSERT INTO Users (Username, [Password], LastLoginTime, IsDeleted)
 VALUES  ('Petar Petrov', 'petar123', '2021-09-17', 0),
         ('Stoyan Ivanov', 'stoyan33', '2021-08-03', 1),
-		('Polina Dimitrowa', 'pdim129', '2020-11-02', 0),
-		('Vesela Todorova', 'todorova1', '2021-09-26',0),
-		('Krasimira Stoyanova', 'stoyanova2', '2020-09-03', 1)
+        ('Polina Dimitrowa', 'pdim129', '2020-11-02', 0),
+	('Vesela Todorova', 'todorova1', '2021-09-26',0),
+	('Krasimira Stoyanova', 'stoyanova2', '2020-09-03', 1)
 
 /* ******************************************
 	Problem 9. Change Primary Key
@@ -166,9 +166,9 @@ CREATE TABLE Directors (
 INSERT INTO Directors (DirectorName)
 VALUES ('Steven Spielberg'),
        ('Michael Bay'),
-	   ('James Cameron'),
-	   ('Pedro Almodovar'),
-	   ('Darren Aronofsky')
+       ('James Cameron'),
+       ('Pedro Almodovar'),
+       ('Darren Aronofsky')
 
 CREATE TABLE Genres (
 	Id INT PRIMARY KEY IDENTITY,
@@ -179,9 +179,9 @@ CREATE TABLE Genres (
 INSERT INTO Genres (GenreName)
 VALUES ('comedy'),
        ('thriller'),
-	   ('action'),
-	   ('horror'),
-	   ('drama')
+       ('action'),
+       ('horror'),
+       ('drama')
 
 CREATE TABLE Categories (
 	Id INT PRIMARY KEY IDENTITY,
@@ -192,9 +192,9 @@ CREATE TABLE Categories (
 INSERT INTO Categories (CategoryName)
 VALUES ('Children & Family'),
        ('Documentaries'),
-	   ('Romantic'),
-	   ('Sci-fi & Fantasy'),
-	   ('Adventure')
+       ('Romantic'),
+       ('Sci-fi & Fantasy'),
+       ('Adventure')
 
 CREATE TABLE Movies (
 	Id INT PRIMARY KEY IDENTITY,
@@ -211,9 +211,9 @@ CREATE TABLE Movies (
 INSERT INTO Movies (Title, DirectorId, [Length], GenreId, CategoryId, Rating)
 VALUES ('Black Swan', 5, 108, 2, 4, 8.0),
        ('Terminator 2: Judgment Day', 3, 137, 3, 5, 8.5),
-	   ('Ready Player One', 1, 140, 3, 4, 7.4),
-	   ('Bad Boys for Life', 2, 124, 1, 5, 6.6),
-	   ('Pain and Glory', 4, 113, 5, 3, 7.5)
+       ('Ready Player One', 1, 140, 3, 4, 7.4),
+       ('Bad Boys for Life', 2, 124, 1, 5, 6.6),
+       ('Pain and Glory', 4, 113, 5, 3, 7.5)
 
 
 /* ******************************************
@@ -236,7 +236,7 @@ CREATE TABLE Categories (
 INSERT INTO Categories (CategoryName, DailyRate, WeeklyRate, MonthlyRate, WeekendRate)
 VALUES ('Economy', 30.00, 210.00, 800.00, 35.00),
        ('Standard', 40.00, 280.00, 1100.00, 45.00),
-	   ('Luxury', 50.00, 350.00, 1350.00, 55.00)
+       ('Luxury', 50.00, 350.00, 1350.00, 55.00)
 
 CREATE TABLE Cars (
 	Id INT PRIMARY KEY IDENTITY,
@@ -254,7 +254,7 @@ CREATE TABLE Cars (
 INSERT INTO Cars (PlateNumber, Manufacturer, Model, CarYear, CategoryId, Doors, Condition)
 VALUES ('A2568', 'Ford', 'Focus', 2018, 2, 4, 'new'),
        ('B6457', 'Daimler-Benz', 'Smart', 2015, 1, 2, 'good'),
-	   ('C4892', 'Ford', 'Mustang', 2021, 3, 4, 'new')
+       ('C4892', 'Ford', 'Mustang', 2021, 3, 4, 'new')
 
 CREATE TABLE Employees (
 	Id INT PRIMARY KEY IDENTITY,
@@ -267,7 +267,7 @@ CREATE TABLE Employees (
 INSERT INTO Employees (FirstName, LastName, Title)
 VALUES ('John', 'Smith', 'Mr'),
        ('Marry', 'Williams', 'Ms'),
-	   ('Anna', 'Brown', 'Ms')
+       ('Anna', 'Brown', 'Ms')
 
 CREATE TABLE Customers (
 	Id INT PRIMARY KEY IDENTITY,
@@ -282,7 +282,7 @@ CREATE TABLE Customers (
 INSERT INTO Customers (DriverLicenceNumber, FullName, [Address], City, ZIPCode)
 VALUES (4760900263, 'Stoyan Ivanov', 'Hristo Botev 58', 'Sofia', 1000),
        (6578922674, 'Ivayla Todorova', 'Tsar Osvoboditel 77', 'Plovdiv', 4000),
-	   (8809167234, 'Petar Petrov', 'Tsar Simeon Veliki 166', 'Stara Zagora', 6000)
+       (8809167234, 'Petar Petrov', 'Tsar Simeon Veliki 166', 'Stara Zagora', 6000)
 
 CREATE TABLE RentalOrders (
 	Id INT PRIMARY KEY IDENTITY, 
@@ -305,7 +305,7 @@ CREATE TABLE RentalOrders (
 INSERT INTO RentalOrders (EmployeeId, CustomerId, CarId, TankLevel, StartDate, EndDate)
 VALUES (1, 2, 1, 50, '2021-05-03', '2021-05-10'),
        (2, 1, 3, 50, '2021-09-09', '2021-09-15'),
-	   (1, 3, 2, 100, '2021-12-22', '2022-01-02')
+       (1, 3, 2, 100, '2021-12-22', '2022-01-02')
 
 /* ******************************************
 	Problem 15. Hotel Database
@@ -326,7 +326,7 @@ CREATE TABLE Employees (
 INSERT INTO Employees (FirstName, LastName, Title)
 VALUES ('Peter', 'Jones', 'Mr'),
        ('Anna', 'Smith', 'Ms'),
-	   ('Emma', 'Peters','Mrs')
+       ('Emma', 'Peters','Mrs')
 
 CREATE TABLE Customers (
 	AccountNumber INT PRIMARY KEY NOT NULL,
@@ -341,7 +341,7 @@ CREATE TABLE Customers (
 INSERT INTO Customers (AccountNumber, FirstName, LastName, PhoneNumber)
 VALUES (1, 'Oliver', 'Smith', '89839374'),
        (2, 'William', 'Davies','89023445'),
-	   (3, 'Sophia', 'Thompson', '23458985')
+       (3, 'Sophia', 'Thompson', '23458985')
 
 CREATE TABLE RoomStatus (
 	RoomStatus VARCHAR(50) PRIMARY KEY NOT NULL,
@@ -351,7 +351,7 @@ CREATE TABLE RoomStatus (
 INSERT INTO RoomStatus (RoomStatus)
 VALUES ('available'),
        ('booked'),
-	   ('reserved')
+       ('reserved')
 
 CREATE TABLE RoomTypes (
 	RoomType VARCHAR(50) PRIMARY KEY,
@@ -361,7 +361,7 @@ CREATE TABLE RoomTypes (
 INSERT INTO RoomTypes (RoomType)
 VALUES ('twin'),
        ('double'),
-	   ('apartment')
+       ('apartment')
 
 CREATE TABLE BedTypes (
 	BedType VARCHAR(50) PRIMARY KEY,
@@ -371,7 +371,7 @@ CREATE TABLE BedTypes (
 INSERT INTO BedTypes (BedType)
 VALUES ('single'),
        ('double'),
-	   ('king')
+       ('king')
 
 CREATE TABLE Rooms (
 	RoomNumber INT PRIMARY KEY,
@@ -385,7 +385,7 @@ CREATE TABLE Rooms (
 INSERT INTO Rooms (RoomNumber, RoomType, BedType, Rate, RoomStatus)
 VALUES (101, 'double', 'double', 200.00, 'available'),
        (102, 'apartment', 'king', 350.00, 'reserved'),
-	   (103, 'double', 'double', 200.00, 'booked')
+       (103, 'double', 'double', 200.00, 'booked')
 
 CREATE TABLE Payments (
 	Id INT PRIMARY KEY IDENTITY, 
@@ -405,7 +405,7 @@ CREATE TABLE Payments (
 INSERT INTO Payments (EmployeeId, PaymentDate, AccountNumber, FirstDateOccupied, LastDateOccupied, AmountCharged, TaxAmount, TaxRate, PaymentTotal)
 VALUES (1, '2021-09-20', 1, '2021-09-19', '2021-09-20', 200.00, 0.00, 0.00, 200.00),
        (2, '2021-09-22', 1, '2021-09-20', '2021-09-22', 700.00, 0.00, 0.00, 700.00),
-	   (1, '2021-09-25', 1, '2021-09-19', '2021-09-25', 1400.00, 0.00, 0.00, 1400.00)
+       (1, '2021-09-25', 1, '2021-09-19', '2021-09-25', 1400.00, 0.00, 0.00, 1400.00)
 
 CREATE TABLE Occupancies (
 	Id INT PRIMARY KEY IDENTITY,
@@ -421,7 +421,7 @@ CREATE TABLE Occupancies (
 INSERT INTO Occupancies (EmployeeId, DateOccupied, AccountNumber, RoomNumber, RateApplied)
 VALUES (1, '2022-01-01', 1, 101, 200),
        (3, '2021-11-11', 1, 103, 200),
-	   (2, '2021-12-05', 1, 101, 350)
+       (2, '2021-12-05', 1, 101, 350)
 
 /* ******************************************
 	Problem 16. Create SoftUni Database
@@ -478,22 +478,22 @@ RESTORE DATABASE SoftUni FROM DISK = 'D:\softuni-backup.bak'
 INSERT INTO Towns([Name])
 VALUES ('Sofia'),
        ('Plovdiv'),
-	   ('Varna'),
-	   ('Burgas')
+       ('Varna'),
+       ('Burgas')
 
 INSERT INTO Departments([Name])
 VALUES ('Engineering'),
        ('Sales'),
-	   ('Marketing'),
-	   ('Software Development'),
-	   ('Quality Assurance')
+       ('Marketing'),
+       ('Software Development'),
+       ('Quality Assurance')
 
 INSERT INTO Employees (FirstName, MiddleName, LastName, JobTitle, DepartmentId, HireDate, Salary)
 VALUES ('Ivan', 'Ivanov', 'Ivanov', '.NET Developer', 4, '2013-02-01', 3500.00),
        ('Petar', 'Petrov', 'Petrov', 'Senior Engineer', 1, '2004-03-02', 4000.00),
-	   ('Maria', 'Petrova', 'Ivanova', 'Intern', 5, '2016-08-28', 525.25),
-	   ('Georgi', 'Terziev', 'Ivanov', 'CEO', 2, '2007-12-09', 3000.00),
-	   ('Peter', 'Pan', 'Pan', 'Intern', 3, '2016-08-28', 599.88)
+       ('Maria', 'Petrova', 'Ivanova', 'Intern', 5, '2016-08-28', 525.25),
+       ('Georgi', 'Terziev', 'Ivanov', 'CEO', 2, '2007-12-09', 3000.00),
+       ('Peter', 'Pan', 'Pan', 'Intern', 3, '2016-08-28', 599.88)
 
 /* ******************************************
 	Problem 19. Basic Select All Fields
