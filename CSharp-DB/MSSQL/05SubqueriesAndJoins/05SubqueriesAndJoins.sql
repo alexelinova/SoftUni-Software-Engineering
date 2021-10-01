@@ -75,7 +75,7 @@ WHERE e.HireDate > '1999-01-01' AND d.Name IN ('Sales', 'Finance')
 ORDER BY HireDate 
 
 /* *************************************************
-Problem 7. Employees Hired After
+Problem 7. Employees with Project
 ****************************************************/
 
 SELECT TOP (5) e.EmployeeID,
@@ -129,7 +129,7 @@ FROM Employees e
 ORDER BY e.EmployeeID
 
 /* *************************************************
-Problem 11. Employee Summary
+Problem 11. Min Average Salary
 ****************************************************/
 
 SELECT TOP (1)
