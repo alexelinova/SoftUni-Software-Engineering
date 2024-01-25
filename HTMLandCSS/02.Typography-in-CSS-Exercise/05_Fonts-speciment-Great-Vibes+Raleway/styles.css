@@ -1,0 +1,13 @@
+html {
+    font: 16px/1.5  Raleway, sans-serif;
+}
+
+body, button, input {
+    font: inherit;
+}
+
+h1, h2 {
+    font-family: "Great vibes", cursive;
+    line-height: 1.2;
+    font-weight: bold;
+}
